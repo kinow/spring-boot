@@ -872,7 +872,7 @@ assuming that `ConnectionProperties` sits in the `com.example` package.
 
 Even if the configuration above will create a regular bean for `ConnectionProperties`, we
 recommend that `@ConfigurationProperties` only deal with the environment and in particular
-does not inject other beans from the context. Having said that, The
+does not inject other beans from the context. Having said that, the
 `@EnableConfigurationProperties` annotation is _also_ automatically applied to your project
 so that any _existing_ bean annotated with `@ConfigurationProperties` will be configured
 from the `Environment` properties. You could shortcut `MyConfiguration` above by making
